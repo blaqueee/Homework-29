@@ -101,7 +101,7 @@ public class Main {
         if (str.equals(""))
             throw new RuntimeException("Choice can't be empty!");
         int choice = Integer.parseInt(str);
-        if (choice < 1 || choice > 5)
+        if (choice < 1 || choice > 6)
             throw new RuntimeException("Can't find this action");
         return choice;
     }
